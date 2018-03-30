@@ -1,0 +1,26 @@
+<% include ../partials/header %>
+
+  <header class='jumbotron centerbtn'>
+        <a class='btn btn-success btn-lg' href='/books/new'> SELL YOUR BOOK </a> 
+  </header>
+
+
+  <div class='row text-center' style='display:flex; flex-wrap: wrap;'>
+    <% books.forEach((book) =>{ %>
+      <div class='col-md-3 col-sm-6'>
+        <div class='thumbnail'>
+          <img src='<%= book.image%>'>
+          <div class='caption'>
+            <h4><%= book.name %></h4>
+          </div>
+          <p>
+            <a href='/books/<%= book._id %>' class='btn btn-primary'>MORE INFO</a>
+          </p>
+        </div>
+      </div>
+      <% }) %>
+    </div>
+
+
+
+  <% include ../partials/footer %>
