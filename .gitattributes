@@ -1,5 +1,9 @@
+*.css linguist-language=Javascript
+
 models/* linguist-vendored
 middleware/* linguist-vendored
 routes/* linguist-vendored
 app.js linguist-vendored
 seeds.js linguist-vendored
+
+
