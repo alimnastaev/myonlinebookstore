@@ -38,7 +38,7 @@ To check it out go to [https://myonlinebookstore.herokuapp.com/](https://myonlin
 ## Getting Started
 
 ```sh
-git clone https://github.com/alimnastaev/onlinebookstore.git
+git clone https://github.com/alimnastaev/myonlinebookstore.git
 ```
 
 ### Install dependencies
