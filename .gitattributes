@@ -1,4 +1,7 @@
-models/* linguist-vendored
-middleware/* linguist-vendored
-routes/books.js linguist-vendored
-routes/comments.js linguist-vendored
+# models/* linguist-vendored
+# middleware/* linguist-vendored
+# routes/books.js linguist-vendored
+# routes/comments.js linguist-vendored
+
+
+static/* linguist-vendored
